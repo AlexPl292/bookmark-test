@@ -15,4 +15,8 @@
         <listener class="com.github.alexpl292.bookmarktest.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="com.github.alexpl292.bookmarktest.MyAction" class="com.github.alexpl292.bookmarktest.MyAction"
+                text="My Bookmark Action"/>
+    </actions>
 </idea-plugin>
